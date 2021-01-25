@@ -6,7 +6,7 @@ pipeline {
 	    
     }
    stages {
-   	stage("SonarQube Analysis"){
+   	/*stage("SonarQube Analysis"){
         	steps {
                 	withSonarQubeEnv("Sonarqube") {
                     		sh "mvn -f pom.xml sonar:sonar -Dsonar.sources=src/"
@@ -25,7 +25,7 @@ pipeline {
                     		}
                 	}
                 }
-	}
+	}*/
        /*stage("upload to nexus") {
       steps {
         script {
